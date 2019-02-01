@@ -1,0 +1,28 @@
+{
+  "name": "fast-handlebars-compiler",
+  "version": "0.0.1",
+  "description": "Fast handlebar (node.js) compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefsnare/fast-handlebars-compiler.git"
+  },
+  "keywords": [
+    "handlebars",
+    "chokidar",
+    "compiler",
+    "templating"
+  ],
+  "author": "jefsnare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jefsnare/fast-handlebars-compiler/issues"
+  },
+  "homepage": "https://github.com/jefsnare/fast-handlebars-compiler#readme",
+  "dependencies": {
+    "handlebars": "^4.0.12"
+  }
+}
