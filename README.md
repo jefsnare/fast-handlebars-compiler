@@ -1,6 +1,6 @@
 # Fast Handlebars Compiler
 
-[WIP]
+Compiling Handlebars templates in a fast way.
 
 ## Example configuration
 

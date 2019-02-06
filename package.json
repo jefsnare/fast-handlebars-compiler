@@ -1,6 +1,6 @@
 {
   "name": "fast-handlebars-compiler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fast handlebar (node.js) compiler",
   "main": "index.js",
   "scripts": {

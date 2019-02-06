@@ -13,7 +13,7 @@ function fromDir(startPath, filter, callback) {
         let filename = path.join(startPath, files[i]);
         let stat = fs.lstatSync(filename);
         if (stat.isDirectory()) {
-            fromDir(filename, filter, callback); //recurse
+            fromDir(filename, filter, callback);
         } else if (filter.test(filename)) callback(filename);
     }
 }
